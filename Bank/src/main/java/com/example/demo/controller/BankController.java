@@ -19,6 +19,10 @@ public class BankController {
 	@Autowired
 	private BankService bs;
 	
+	//nfjobhewubfiwaebgfbierbggiebrigbaierbgvierbvgierabgi
+	
+	
+	
 	@PostMapping("add")
 	private void add(@RequestBody Bank b) {
 		bs.add(b);
